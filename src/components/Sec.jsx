@@ -27,7 +27,7 @@ function Sec() {
     return (
         <div>
 
-            <div className="flex  h-28 bg-amber-100 justify-between items-center px-6">
+            <div className="flex  h-28 justify-between items-center px-6">
                 <div>
                     <h1 className="text-6xl font-bold px-8">{score} </h1>
                     <h1 className="text-xl">Total Score</h1>
@@ -47,7 +47,7 @@ function Sec() {
             </div>
 
 
-            <div className="flex flex-col items-center justify-center  bg-amber-300">
+            <div className="flex flex-col items-center justify-center ">
                 <img src={temp} className="mt-10"/>
                     
             <button onClick={handleClick1} disabled={!roll}  className="border-2 w-30 text-center h-10 m-5 disabled:opacity-50 disabled:cursor-not-allowed rounded-md"> Roll Me</button>
